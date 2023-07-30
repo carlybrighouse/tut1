@@ -17,6 +17,11 @@ public class Greeter {
   }
 
   public static void main(String[] args) {
+    if (args.length > 0 {
+	System.out.println(args[0];
+    } else {
+        System.out.println("No command line arguments were provided.");
+    }
     String language = args[0];
     String country = args[1];
     String name = args[2];
